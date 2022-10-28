@@ -1,5 +1,7 @@
 package tasks;
 
+import java.util.Arrays;
+import java.util.HashMap;
 import java.util.concurrent.Semaphore;
 
 // https://leetcode.com/problems/print-in-order/
@@ -12,7 +14,6 @@ public class PrintInOrder_1114 {
         private final Semaphore p = new Semaphore(0);
 
         public Solution() {
-
         }
 
         public void first(Runnable printFirst) throws InterruptedException {
